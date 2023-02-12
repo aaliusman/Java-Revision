@@ -2,6 +2,7 @@ package Astraction;
 
 public class BMW extends autoTech implements Auto {
 
+    @Override
     public void Doors(){
         System.out.println("either 4 doors or 2 doors");
     }
@@ -12,7 +13,7 @@ public class BMW extends autoTech implements Auto {
     }
 
     @Override
-    public void saftey() {
+    public void safety() {
         System.out.println("Must have seat belts and air bags features");
     }
 

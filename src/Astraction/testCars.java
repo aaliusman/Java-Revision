@@ -7,7 +7,7 @@ public class testCars {
         BMW car = new BMW();
         car.Doors();
         car.Engine();
-        car.saftey();
+        car.safety();
         car.wireless();
         car.techno();
 

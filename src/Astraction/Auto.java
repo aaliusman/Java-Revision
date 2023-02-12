@@ -6,5 +6,5 @@ public interface Auto {
 
     public void Engine();
 
-    public abstract void saftey();
+    public abstract void safety();
 }

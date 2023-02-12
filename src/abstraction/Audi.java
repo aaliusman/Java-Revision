@@ -1,14 +1,19 @@
 package abstraction;
 
-public class Audi implements Cars {
+public class Audi extends technology implements Cars {
+//    @Override
+//    public void door() {
+//        System.out.println("Must have at least 2 doors");
+//    }
+
     @Override
-    public void door() {
-        System.out.println("Must have atleast 2 doors");
+    public void door(int numberOfDoors) {
+        System.out.println("must have at least "+numberOfDoors+" doors.");
     }
 
     @Override
     public void seats() {
-        System.out.println("must have atleast 2 seats");
+        System.out.println("must have at least 2 seats");
     }
 
     @Override
@@ -21,4 +26,8 @@ public class Audi implements Cars {
         System.out.println("Must have power steering and windows");
     }
 
+    @Override
+    public void keyless() {
+        System.out.println("Awesome feature of keyless entry");
+    }
 }
