@@ -5,39 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a8cb0d-7a35-409b-af5b-12b39c3d9b74" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Hash/mapLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/Assert/unit/UnitTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/Assert/unit/testing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/Astraction/Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/Astraction/Auto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/Astraction/BMW.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/Astraction/BMW.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/Astraction/testCars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/Astraction/testCars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/HashMap/mapLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/InterviewProblems/multipleSolutions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/InterviewProblems/multipleSolutions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/Logical/oddEven.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/Reader/fileReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/Sorting/UserInsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/Sorting/UserInsertSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/abstraction/Audi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/abstraction/Audi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/abstraction/Cars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/abstraction/Cars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/abstraction/TestCars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/abstraction/TestCars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/testNg/assertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/testNg/testAssertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assert/unit/UnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assert/unit/testing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Astraction/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Astraction/Auto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Astraction/BMW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Astraction/BMW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Astraction/testCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Astraction/testCars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashMap/mapLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewProblems/multipleSolutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewProblems/MultipleSolutions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logical/oddEven.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reader/fileReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/InsertSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/InsertSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/UserInsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/UserInsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/Audi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/Audi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/Cars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/TestCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/TestCars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testNg/assertion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testNg/testAssertion.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,13 +153,27 @@
       <recent name="enums" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultipleSolutions">
+  <component name="RunManager" selected="Application.JavaRev">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="JavaRev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.JavaRev" />
+      <module name="Java-Revision" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MultipleSolutions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterviewProblems.MultipleSolutions" />
@@ -200,6 +182,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="InterviewProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.Sample" />
+      <module name="Java-Revision" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,20 +219,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testCars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Astraction.testCars" />
-      <module name="Java-Revision" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Astraction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,25 +249,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInsertSort.getNames" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java-Revision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Sorting" />
-      <option name="MAIN_CLASS_NAME" value="Sorting.UserInsertSort" />
-      <option name="METHOD_NAME" value="getNames" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -305,19 +268,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Sample" />
+      <item itemvalue="Application.JavaRev" />
       <item itemvalue="Application.MultipleSolutions" />
-      <item itemvalue="Application.testCars" />
       <item itemvalue="Application.UserInsertSort" />
-      <item itemvalue="TestNG.UserInsertSort.getNames" />
       <item itemvalue="TestNG.GetDataProvider.getNames" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaRev" />
+        <item itemvalue="Application.Sample" />
         <item itemvalue="Application.MultipleSolutions" />
         <item itemvalue="Application.UserInsertSort" />
         <item itemvalue="TestNG.GetDataProvider.getNames" />
-        <item itemvalue="TestNG.UserInsertSort.getNames" />
-        <item itemvalue="Application.testCars" />
       </list>
     </recent_temporary>
   </component>
@@ -468,6 +431,16 @@
           <url>file://$PROJECT_DIR$/src/InterviewProblems/MultipleSolutions.java</url>
           <line>173</line>
           <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/JavaRev.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/JavaRev.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="195" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
