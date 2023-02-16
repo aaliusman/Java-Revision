@@ -1,6 +1,4 @@
-package InterviewProblems;
-
-import org.testng.annotations.Test;
+package interviewProblems;
 
 public class RetrieveEnumValues {
 

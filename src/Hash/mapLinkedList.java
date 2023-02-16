@@ -1,7 +1,5 @@
 package Hash;
 
-import InterviewProblems.MultipleSolutions;
-
 import java.util.*;
 
 public class mapLinkedList {

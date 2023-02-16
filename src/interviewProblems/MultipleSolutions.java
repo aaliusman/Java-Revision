@@ -1,4 +1,4 @@
-package InterviewProblems;
+package interviewProblems;
 
 
 import org.testng.Assert;

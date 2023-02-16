@@ -1,15 +1,18 @@
 package Sorting;
 
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class JavaRev {
     public static void main(String[] args) {
+
         System.out.println();
         System.out.print("Hello World");
         System.out.println("Hello Hello");
 
-
+        // for mac users command+/   and windows ctrl + \
         // Data type  -> give name  = assign the value
+        // System.out.println("Hello Comment only shouldn't print");
         // Only one variable name can be use within class
         // Concatenation
 
@@ -21,9 +24,6 @@ public class JavaRev {
         System.out.println("sum is equal to:" + num + num2);
 
 
-
-
-
         char ch = '5';
 
         // no primitive data type
@@ -32,7 +32,7 @@ public class JavaRev {
 
         int aa = 45;
         String aaa = Integer.toString(aa);
-        System.out.println(45+aaa);
+        System.out.println(45 + aaa);
 
         float n = 2.34F;
         float bb = 3.45F;
@@ -47,19 +47,19 @@ public class JavaRev {
         int aaal = 56;
         String lm = Integer.toString(aaal);
 
-        String abc = Character. toString(mm);
-        System.out.println(33+abc);
+        String abc = Character.toString(mm);
+        System.out.println(33 + abc);
 
 
         int a = 89;
 
-       if (a > 90) {
-           System.out.println("Hello");
-       } else if (a == 90) {
-           System.out.println("Bye bye");
-       } else {
-           System.out.println("Morning");
-       }
+        if (a > 90) {
+            System.out.println("Hello");
+        } else if (a == 90) {
+            System.out.println("Bye bye");
+        } else {
+            System.out.println("Morning");
+        }
 
 
         int x = 10;
@@ -81,8 +81,6 @@ public class JavaRev {
 
         System.out.println(array[4]);
         System.out.println(array[0]);
-
-
 
 
         System.out.println(array[4]);
@@ -109,8 +107,8 @@ public class JavaRev {
         uj--;
 
         int pp = 2;
-        pp+=2;
-        pp+=2;
+        pp += 2;
+        pp += 2;
         System.out.println(pp);
 
         System.out.println(uj);
@@ -125,7 +123,7 @@ public class JavaRev {
         //Expected value/results
         String namee = "Equal to";
 
-        if ( namee != "Equal to jlj" ) {
+        if (namee != "Equal to jlj") {
             System.out.println("Passed");
         } else {
             System.out.println("Test failed");
@@ -139,7 +137,6 @@ public class JavaRev {
         }
 
 
-
         if (45 < 68) {
             System.out.println("Hello World");
             System.out.println("Don't print this line");
@@ -149,9 +146,9 @@ public class JavaRev {
             System.out.println("not equal");
         }
 
-
-        if ( 45 >= 67) {
-            System.out.println("Greater or equal");
+        String a1aa = "Kashifa";
+        if (45 <= 67) {
+            System.out.println(a1aa);
         } else {
             System.out.println("not equal or greater");
         }
@@ -182,9 +179,111 @@ public class JavaRev {
         //Logical operator for pipe we need to have at least one condition true
         if (45 < 20 || 45 > 67 || 45 > 78) {
             System.out.println("Some or all conditions passed");
-        } else {
+        } else if (45 > 20 || 45 > 67 || 45 > 78) {
             System.out.println("Not all condition passed");
+        } else {
+            System.out.println("Helle world");
         }
+
+
+        if (1 > 2) {
+            System.out.println("hello");
+        } else {
+            System.out.println("No hello");
+        }
+
+
+        String[] programmingLanguage = {"Java", "Python", "Kotlin"};
+
+
+        System.out.println(Math.max(5, 10));
+
+        int day = 1;
+
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+        }
+
+// Loops
+        int ikk = 0;
+        while (ikk < 8) {
+            System.out.println("dfgjlkjfgjldgljkfg");
+            ikk++;
+        }
+
+        int ino = 0;
+        do {
+            System.out.println(ino);
+            ino++;
+        }
+        while (8 < 3);
+
+
+        String name = "Usman";
+        System.out.println(name.length());
+       // name[0] = 'U'
+        // name [1] = 's'
+        // name [2] = 'm'
+        // name [3] = 'a'
+        // name [4] = 'n'
+
+        String nnn = "namsU";
+        // Index and Array always start with 0
+        // length = 5-1
+
+
+        //dynamic forloop
+        for (int g =nnn.length()-1; g >=0 ; g--) {
+            System.out.print(nnn.charAt(g));
+        }
+
+        //static forloop
+        for ( int k = 0; k<5; k++) {
+            System.out.println(k);
+        }
+
+        //Arrays size is fixed or static
+        //Arrays String[] cars = {"Volvo", "BMW", "Ford"}
+
+
+        //ArrayList  - Size can be change according to situation
+
+        String[] carss = {"Volvo", "BMW", "Ford", "Tesla", "Cadilac"};
+        ArrayList<String> carrss = new ArrayList<String>();
+        for ( int k = 0; k<5; k++) {
+            carrss.add(carss[k]);
+        }
+
+        System.out.println(carrss.get(4));
+
+        if (carrss.get(2).equals("Ford")) {
+            System.out.println("test passed");
+        } else {
+            System.out.println("Test failed");
+        }
+
+
+
 
 
 

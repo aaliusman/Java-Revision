@@ -1,4 +1,4 @@
-package InterviewProblems;
+package interviewProblems;
 
 public enum EnumExample {
 
