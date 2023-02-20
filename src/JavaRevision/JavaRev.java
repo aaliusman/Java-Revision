@@ -1,9 +1,11 @@
-package Sorting;
+package JavaRevision;
 
-import java.lang.reflect.Array;
+
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Random;
 
-public class JavaRev {
+public class JavaRev extends Sample{
     public static void main(String[] args) {
 
         System.out.println();
@@ -121,9 +123,9 @@ public class JavaRev {
 
 
         //Expected value/results
-        String namee = "Equal to";
+        String namee = "Appium";
 
-        if (namee != "Equal to jlj") {
+        if (namee != "Appium Tool") {
             System.out.println("Passed");
         } else {
             System.out.println("Test failed");
@@ -283,9 +285,119 @@ public class JavaRev {
         }
 
 
+        //how to print increasing pyramid or number
+        // Nested forloop
+        //1      *
+        //2 3    * *
+        // 456      *  *  *
+        // 7 8 9 10    * * * *
+
+
+        Random rand = new Random();
+        // Setting the upper bound to generate the
+        // random numbers in specific range
+        int upperbound = 25;
+        // Generating random values from 0 - 24
+        // using nextInt()
+        int int_random = rand.nextInt(upperbound);
+
+        // * * * *
+        // * * *
+        //* *
+        // *
+
+        //decreasing number by 1
+        int lkj = 2;
+        for (int o = 1; o < 5; o++ ) {
+            for (int m = 4; m >= o; m--) {
+                System.out.print("*"+"\t");
+//                lkj = lkj +2;
+            }
+            System.out.println();
+        }
+
+        // increasing number by 1
+        for (int o = 1; o < 5; o++ ) {
+            for (int m = 1; m <= o; m++) {
+                System.out.print("*"+"\t");
+//                lkj = lkj +2;
+            }
+            System.out.println();
+        }
+
+        // Create a HashMap object called capitalCities
+         String[] cars1 = {"Volvo1", "BMW", "Ford", "Tesla", "Cadilac"};
+        String[] cars2 = {"Volvo2", "BMW", "Ford", "Tesla", "Cadilac"};
+        String[] cars3 = {"Volvo3", "BMW", "Ford", "Tesla", "Cadilac"};
+        String[] cars4 = {"Volvo4", "BMW", "Ford", "Tesla", "Cadilac"};
+        HashMap<String, String[]> capitalCities = new HashMap<>();
+
+        // Add keys and values (Country, City)
+        capitalCities.put("England", cars1);
+        capitalCities.put("Germany", cars2);
+        capitalCities.put("Norway", cars3);
+        capitalCities.put("USA", cars4);
+//        System.out.println(capitalCities.values());
+//        System.out.println(capitalCities.keySet());
+//        System.out.println(capitalCities.get("Germany"));
+
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~");
+
+        for (String k: capitalCities.keySet()) {
+//            System.out.println(k+": "+ capitalCities.get(k) );
+        }
+
+
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~");
+
+        ArrayList<String> ary = new ArrayList();
+        ary.add("England");
+        ary.add("Germany");
+        ary.add("Pakistan");
+
+
+        // Different types forLoop
+        for (int im = 0; im<ary.size();im++) {
+            System.out.println(ary.get(im));
+        }
+        for (String country: ary) {
+            System.out.println(country);
+        }
+
+        //Inheritance
+        Sample sam = new Sample();
+
+        String aaaa = sam.wal + " is the best place for shopping";
+        int mull = sam.multiplication + 10;
+        System.out.println(aaaa);
+        System.out.println(mull);
+
+
+        String a2 = wal + " is the best place for shopping";
+        int m2 = multiplication + 10;
+
+        System.out.println(a2);
+        System.out.println(m2);
+
+
+        System.out.println(multiplication);
+        System.out.println(wal);
 
 
 
 
+
+
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("Enter the number of rows: ");
+//        int np=sc.nextInt();
+//        for(int s= np;s>0;s--)
+//        {
+//            for(int j=0;j<s;j++)
+//            {
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
     }
 }

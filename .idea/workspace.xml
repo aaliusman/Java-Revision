@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a8cb0d-7a35-409b-af5b-12b39c3d9b74" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/JavaRevision/Sample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/Hash/mapLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/Hash/mapLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/InterviewProblems/EnumExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/InterviewProblems/EnumExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/InterviewProblems/RetrieveEnumValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/InterviewProblems/RetrieveEnumValues.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/InterviewProblems/multipleSolutions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/InterviewProblems/multipleSolutions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/Sorting/JavaRev.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/Sorting/JavaRev.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hash/mapLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hash/mapLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewProblems/EnumExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewProblems/EnumExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewProblems/MultipleSolutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewProblems/MultipleSolutions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewProblems/RetrieveEnumValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewProblems/RetrieveEnumValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/JavaRev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/JavaRev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/Sorting/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/Sorting/Sample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/InsertSorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/JavaRev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRevision/JavaRev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/Sample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/UserInsertSort.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,10 +157,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="javaConstructor" />
       <recent name="enums" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaRev">
+  <component name="RunManager" selected="Application.SampleTwo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -172,12 +170,12 @@
       <module />
     </configuration>
     <configuration name="JavaRev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.JavaRev" />
+      <option name="MAIN_CLASS_NAME" value="JavaRevision.JavaRev" />
       <module name="Java-Revision" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="JavaRevision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +198,26 @@
       </method>
     </configuration>
     <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.Sample" />
+      <option name="MAIN_CLASS_NAME" value="JavaRevision.Sample" />
       <module name="Java-Revision" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="JavaRevision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRevision.SampleTwo" />
+      <module name="Java-Revision" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaRevision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,12 +226,12 @@
       </method>
     </configuration>
     <configuration name="UserInsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.UserInsertSort" />
+      <option name="MAIN_CLASS_NAME" value="JavaRevision.UserInsertSort" />
       <module name="Java-Revision" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="JavaRevision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,25 +248,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetDataProvider.getNames" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java-Revision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Sorting" />
-      <option name="MAIN_CLASS_NAME" value="Sorting.GetDataProvider" />
-      <option name="METHOD_NAME" value="getNames" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -278,19 +271,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SampleTwo" />
       <item itemvalue="Application.Sample" />
       <item itemvalue="Application.JavaRev" />
       <item itemvalue="Application.MultipleSolutions" />
       <item itemvalue="Application.UserInsertSort" />
-      <item itemvalue="TestNG.GetDataProvider.getNames" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SampleTwo" />
         <item itemvalue="Application.JavaRev" />
         <item itemvalue="Application.Sample" />
         <item itemvalue="Application.MultipleSolutions" />
         <item itemvalue="Application.UserInsertSort" />
-        <item itemvalue="TestNG.GetDataProvider.getNames" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +371,7 @@
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/UserInsertSort.java</url>
+          <url>file://$PROJECT_DIR$/src/JavaRevision/UserInsertSort.java</url>
           <line>45</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
@@ -413,7 +406,7 @@
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/UserInsertSort.java</url>
+          <url>file://$PROJECT_DIR$/src/JavaRevision/UserInsertSort.java</url>
           <line>20</line>
           <option name="timeStamp" value="171" />
         </line-breakpoint>
@@ -443,49 +436,49 @@
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/JavaRev.java</url>
-          <line>139</line>
+          <url>file://$PROJECT_DIR$/src/JavaRevision/JavaRev.java</url>
+          <line>142</line>
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/JavaRev.java</url>
-          <line>179</line>
+          <url>file://$PROJECT_DIR$/src/JavaRevision/JavaRev.java</url>
+          <line>182</line>
           <option name="timeStamp" value="202" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/JavaRev.java</url>
-          <line>180</line>
+          <url>file://$PROJECT_DIR$/src/JavaRevision/JavaRev.java</url>
+          <line>183</line>
           <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/JavaRev.java</url>
-          <line>178</line>
+          <url>file://$PROJECT_DIR$/src/JavaRevision/JavaRev.java</url>
+          <line>181</line>
           <option name="timeStamp" value="204" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/JavaRev.java</url>
-          <line>181</line>
+          <url>file://$PROJECT_DIR$/src/JavaRevision/JavaRev.java</url>
+          <line>184</line>
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/JavaRev.java</url>
-          <line>184</line>
+          <url>file://$PROJECT_DIR$/src/JavaRevision/JavaRev.java</url>
+          <line>187</line>
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/JavaRev.java</url>
-          <line>234</line>
+          <url>file://$PROJECT_DIR$/src/JavaRevision/JavaRev.java</url>
+          <line>237</line>
           <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/JavaRev.java</url>
-          <line>238</line>
+          <url>file://$PROJECT_DIR$/src/JavaRevision/JavaRev.java</url>
+          <line>241</line>
           <option name="timeStamp" value="216" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/JavaRev.java</url>
-          <line>273</line>
-          <option name="timeStamp" value="218" />
+          <url>file://$PROJECT_DIR$/src/JavaRevision/JavaRev.java</url>
+          <line>340</line>
+          <option name="timeStamp" value="224" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

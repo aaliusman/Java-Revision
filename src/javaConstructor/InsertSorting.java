@@ -1,4 +1,4 @@
-package Sorting;
+package javaConstructor;
 
 public class InsertSorting {
 
