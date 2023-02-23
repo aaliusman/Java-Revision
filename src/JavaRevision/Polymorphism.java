@@ -3,7 +3,7 @@ package JavaRevision;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Polymorphism {
+public class Polymorphism extends Encapsulation{
 
     //Overloading - same method, different parameters within same class,
     // we can also re-arrange the parameters
@@ -70,6 +70,10 @@ public class Polymorphism {
     public static String getMyLocation (String city, String state) {
         String location = "I live in "+city+", "+state;
         return location;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(nameName);
     }
 
 }

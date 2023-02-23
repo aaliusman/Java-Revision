@@ -1,7 +1,9 @@
 package javaConstructor;
 
 
-public class Idea {
+import JavaRevision.Encapsulation;
+
+public class Idea extends EncapExample {
 
     public static void main(String[] args) {
 

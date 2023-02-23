@@ -1,10 +1,7 @@
 package JavaRevision;
 
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Random;
+import java.util.*;
 
 public class JavaRev extends Sample{
     public static void main(String[] args) {
@@ -341,12 +338,22 @@ public class JavaRev extends Sample{
 
 
 
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~");
+
 
         ArrayList<String> ary = new ArrayList();
         ary.add("England");
         ary.add("Germany");
         ary.add("Pakistan");
+        System.out.println(ary);
+
+        LinkedList<String> ary2 = new LinkedList<>();
+        ary2.add("Hello");
+        ary2.add("Yellow");
+        ary2.add("Brown");
+        System.out.println(ary2);
+
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~");
+
 
 
         // Different types forLoop
@@ -410,8 +417,13 @@ public class JavaRev extends Sample{
 
 
 
+        Camel camel = new Camel();
+        camel.animalSound();
+        camel.run();
+        camel.forest();
 
-
+        ConstructorExample cons = new ConstructorExample();
+        System.out.println(cons.car);
 
 
     }

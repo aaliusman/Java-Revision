@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a8cb0d-7a35-409b-af5b-12b39c3d9b74" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/JavaRevision/JavaRev.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/JavaRevision/JavaRev.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/JavaRevision/Polymorphism.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/JavaRevision/Polymorphism.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/JavaRevision/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/JavaRevision/Sample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/JavaRevision/SampleTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/JavaRevision/SampleTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/javaConstructor/Idea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/javaConstructor/Idea.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaRevision/JavaRev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRevision/JavaRev.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaRevision/Polymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRevision/Polymorphism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaRevision/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRevision/Sample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaRevision/SampleTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRevision/SampleTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewProblems/MultipleSolutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewProblems/MultipleSolutions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaConstructor/Idea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaConstructor/Idea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Kotlin File" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -163,7 +161,7 @@
       <recent name="enums" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SampleTwo">
+  <component name="RunManager" selected="Application.JavaRev">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -281,8 +279,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SampleTwo" />
         <item itemvalue="Application.JavaRev" />
+        <item itemvalue="Application.SampleTwo" />
         <item itemvalue="Application.MultipleSolutions" />
         <item itemvalue="Application.Sample" />
         <item itemvalue="Application.UserInsertSort" />
@@ -414,17 +412,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaRevision/JavaRev.java</url>
-          <line>142</line>
+          <line>139</line>
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaRevision/JavaRev.java</url>
-          <line>237</line>
+          <line>234</line>
           <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaRevision/JavaRev.java</url>
-          <line>241</line>
+          <line>238</line>
           <option name="timeStamp" value="216" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -439,12 +437,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaRevision/JavaRev.java</url>
-          <line>281</line>
+          <line>278</line>
           <option name="timeStamp" value="230" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaRevision/JavaRev.java</url>
-          <line>399</line>
+          <line>406</line>
           <option name="timeStamp" value="234" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
