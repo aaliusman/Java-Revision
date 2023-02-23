@@ -102,6 +102,14 @@ public class MultipleSolutions {
         System.out.println();
     }
 
+    public static void recursiveFunc(int n) {
+        if (n < 10) {
+            System.out.print(n+"\t");
+            n++;
+            recursiveFunc(n);
+        }
+    }
+
     public static void reverseStringWithSpace(String name) {
         StringBuilder sb = new StringBuilder();
         String[] nam = name.split(" ");
@@ -135,10 +143,25 @@ public class MultipleSolutions {
         return i;
     }
 
+    public static void abc (String message) {
+        HashMap<Character, Integer> hashMap = new HashMap<>();
+
+        for (int i =0; i<message.length();i++) {
+            if (!hashMap.containsKey(message.charAt(i))){
+                hashMap.put(message.charAt(i), 1);
+            } else {
+                hashMap.put(message.charAt(i), hashMap.get(message.charAt(i))+1);
+            }
+        }
+        for (char key: hashMap.keySet()) {
+            System.out.println(key +": "+hashMap.get(key));
+        }
+    }
 
 
 
     public static void main(String[] args) {
+        abc("Ilovejavaprogramming");
 
 
        countEachCharacterInString("aabbdddcccca");

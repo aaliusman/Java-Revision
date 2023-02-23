@@ -2,6 +2,7 @@ package JavaRevision;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Random;
 
@@ -275,6 +276,10 @@ public class JavaRev extends Sample{
         for ( int k = 0; k<5; k++) {
             carrss.add(carss[k]);
         }
+        carss[4] = "Honda";
+        System.out.println(carss[4]);
+//        carss[5] = "Honda";
+//        System.out.println(carss[5]);
 
         System.out.println(carrss.get(4));
 
@@ -325,27 +330,15 @@ public class JavaRev extends Sample{
             System.out.println();
         }
 
-        // Create a HashMap object called capitalCities
-         String[] cars1 = {"Volvo1", "BMW", "Ford", "Tesla", "Cadilac"};
-        String[] cars2 = {"Volvo2", "BMW", "Ford", "Tesla", "Cadilac"};
-        String[] cars3 = {"Volvo3", "BMW", "Ford", "Tesla", "Cadilac"};
-        String[] cars4 = {"Volvo4", "BMW", "Ford", "Tesla", "Cadilac"};
-        HashMap<String, String[]> capitalCities = new HashMap<>();
 
-        // Add keys and values (Country, City)
-        capitalCities.put("England", cars1);
-        capitalCities.put("Germany", cars2);
-        capitalCities.put("Norway", cars3);
-        capitalCities.put("USA", cars4);
-//        System.out.println(capitalCities.values());
-//        System.out.println(capitalCities.keySet());
-//        System.out.println(capitalCities.get("Germany"));
+
+
+
+
 
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~");
 
-        for (String k: capitalCities.keySet()) {
-//            System.out.println(k+": "+ capitalCities.get(k) );
-        }
+
 
 
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~");
@@ -371,6 +364,7 @@ public class JavaRev extends Sample{
         int mull = sam.multiplication + 10;
         System.out.println(aaaa);
         System.out.println(mull);
+        System.out.println(sam.wal);
 
 
         String a2 = wal + " is the best place for shopping";
@@ -383,21 +377,42 @@ public class JavaRev extends Sample{
         System.out.println(multiplication);
         System.out.println(wal);
 
+        // Create a HashMap object called capitalCities
+        ArrayList<String> tech = new ArrayList(Arrays.asList("Volvo1", "BMW1", "Ford12", "Tesla1", "1Cadillac"));
+
+        ArrayList<String> cars1 = new ArrayList(Arrays.asList("Volvo1", "BMW1", "Ford1", "Tesla1", "1Cadillac"));
+        ArrayList<String> cars2 = new ArrayList(Arrays.asList("Volvo2", "BMW2", "Ford2", "Tesla2", "2Cadillac"));
+        ArrayList<String> cars3 = new ArrayList(Arrays.asList("Volvo3", "BMW3", "Ford3", "Tesla3", "3Cadillac"));
+        ArrayList<String> cars4 = new ArrayList(Arrays.asList("Volvo4", "BMW4", "Ford4", "Tesla4", "4Cadillac"));
+        System.out.println(cars1);
+        HashMap<String, ArrayList<String>> capitalCities = new HashMap<>();
+
+        // Add keys and values (Country, City)
+        capitalCities.put("England", cars1);
+        capitalCities.put("Germany", cars2);
+        capitalCities.put("Norway", cars3);
+        capitalCities.put("USA", cars4);
+        System.out.println(capitalCities);
+        System.out.println(capitalCities.get("England"));
+        System.out.println(capitalCities.get("USA").get(2));
+
+        for (String k: capitalCities.keySet()) {
+            System.out.println(k+": "+ capitalCities.get(k) );
+        }
+
+        for (int q = 0; q<tech.size();q++) {
+            if (capitalCities.get("England").get(q).equals(tech.get(q))) {
+                System.out.println("Passed");
+            } else {
+                System.out.println("Failed");
+            }
+        }
 
 
 
 
 
-//        Scanner sc=new Scanner(System.in);
-//        System.out.println("Enter the number of rows: ");
-//        int np=sc.nextInt();
-//        for(int s= np;s>0;s--)
-//        {
-//            for(int j=0;j<s;j++)
-//            {
-//                System.out.print("*");
-//            }
-//            System.out.println();
-//        }
+
+
     }
 }
