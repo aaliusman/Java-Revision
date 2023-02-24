@@ -3,7 +3,12 @@ package JavaRevision;
 
 import java.util.*;
 
+
+// Any variable inside the method is local variable
+// Any variable at class level known as Global variable
 public class JavaRev extends Sample{
+
+    static String poi = "Hello World";
     public static void main(String[] args) {
 
         System.out.println();
@@ -23,6 +28,7 @@ public class JavaRev extends Sample{
         int num2 = 55;
         System.out.println("sum is equal to:" + num + num2);
 
+        System.out.println(poi);
 
         char ch = '5';
 
@@ -42,6 +48,7 @@ public class JavaRev extends Sample{
         System.out.println(f);
 
         System.out.println(bb / n);
+
 
         char mm = '4';
         int aaal = 56;
@@ -254,8 +261,11 @@ public class JavaRev extends Sample{
 
         //dynamic forloop
         for (int g =nnn.length()-1; g >=0 ; g--) {
+            String abcfg = "asdfasdf";
             System.out.print(nnn.charAt(g));
         }
+
+        String abcfg = "aklsdjf";
 
         //static forloop
         for ( int k = 0; k<5; k++) {
@@ -425,6 +435,31 @@ public class JavaRev extends Sample{
         ConstructorExample cons = new ConstructorExample();
         System.out.println(cons.car);
 
+        String reverseString = "Coding Love I";
+        // I Love Coding
+        String[] splitString = reverseString.split(" ");
+        // splitString [0] = Coding
+        // splitString [1] = Love
+        // splitString [2] = I
+
+        String rev = "";
+        StringBuilder sb = new StringBuilder();
+        for (int z = splitString.length-1; z>=0;z--) {
+
+//           rev = rev+splitString[z];
+           sb.append(splitString[z]).append(" ");
+           //   I Love Coding
+
+//
+        }
+        String revStr = sb.toString();
+        System.out.println(reverseString.length());
+        System.out.println(revStr.length());
+        System.out.println(revStr.trim().length());
+        System.out.println(sb);
+
+
+        System.out.println(isAnagramOrNot("Stars", "Raets"));
 
     }
 }

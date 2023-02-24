@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a8cb0d-7a35-409b-af5b-12b39c3d9b74" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/JavaRevision/JavaRev.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/JavaRevision/JavaRev.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/JavaRevision/Polymorphism.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/JavaRevision/Polymorphism.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Revision/javaConstructor/Idea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Revision/javaConstructor/Idea.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaRevision/JavaRev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRevision/JavaRev.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaRevision/Polymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRevision/Polymorphism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaConstructor/Idea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaConstructor/Idea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

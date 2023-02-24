@@ -58,6 +58,24 @@ public class Polymorphism extends Encapsulation{
         return false;
     }
 
+    //How to check if two Strings are Anagram or not
+    // Stars     srAts
+    // String a = "Stars";
+    // char [] wordOne = {'S', 't', 'a', 'r', 's'}
+    public static boolean isAnagramOrNot(String a, String b) {
+        char [] wordOne = a.toLowerCase().toCharArray();
+        char [] wordTwo = b.toLowerCase().toCharArray();
+
+        Arrays.sort(wordOne);// arsst
+        Arrays.sort(wordTwo);// arsst
+
+        if(Arrays.equals(wordOne, wordTwo)) {
+            return true;
+        }
+        return false;
+    }
+
+
 
     //Polymorphism has two type overloading and overriding
 
@@ -65,6 +83,13 @@ public class Polymorphism extends Encapsulation{
     public static String getMyLocation (String city) {
         String location = "I live in "+city;
         return location;
+
+        ///git init
+        //git add README.md
+        //git commit -m "first commit"
+        //git branch -M main
+        //git remote add origin https://github.com/aaliusman/EmptyRepository.git
+        //git push -u origin main
     }
 
     public static String getMyLocation (String city, String state) {
